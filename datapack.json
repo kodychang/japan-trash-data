@@ -4,6 +4,2846 @@
  "generatedAt": "2026-07-22",
  "cities": [
   {
+   "id": "tokyo_asakusa",
+   "name": [
+    "Taito Ward (Asakusa)",
+    "台东区（浅草）",
+    "台東区",
+    "다이토구",
+    "เขตไทโต"
+   ],
+   "nameJp": "台東区",
+   "region": [
+    "Tokyo",
+    "东京",
+    "東京",
+    "도쿄",
+    "โตเกียว"
+   ],
+   "note": [
+    "⚠️ Taito collects burnable/non-burnable/plastic DOOR-TO-DOOR (put it in front of your building); recyclables go to the neighborhood station. Clear bags OK, out by 8:00 AM.",
+    "⚠️ 台东区的可燃/不可燃/塑料是上门收集（放在自家门前）；资源类放到集积所。透明袋即可，早上 8 点前投放。",
+    "⚠️ 台東区は燃やすごみ・燃やさないごみ・プラスチックは戸別収集（建物の前に出す）。資源は集積所へ。中身の見える袋で、朝8時までに。",
+    "⚠️ 다이토구는 가연/불연/플라스틱을 문앞 수거합니다. 자원은 집적소로. 투명 봉투, 아침 8시까지.",
+    "⚠️ ไทโตเก็บขยะเผาได้/เผาไม่ได้/พลาสติกถึงหน้าบ้าน ส่วนรีไซเคิลนำไปจุดรวม ถุงใส วางก่อน 8:00 น."
+   ],
+   "gps": {
+    "lat": 35.7148,
+    "lng": 139.7967,
+    "r": 2
+   },
+   "wasteTypes": [
+    {
+     "emoji": "🔥",
+     "colorHex": "#ef4444",
+     "bgHex": "#fee2e2",
+     "jp": "燃やすごみ",
+     "type": [
+      "Burnable",
+      "可燃垃圾",
+      "燃やすごみ",
+      "타는 쓰레기",
+      "ขยะเผาได้"
+     ],
+     "days": [
+      "Mon, Thu",
+      "周一、周四",
+      "月・木",
+      "월, 목",
+      "จันทร์, พฤหัส"
+     ],
+     "bag": [
+      "Clear bag, in front of your building",
+      "透明袋，放自家门前",
+      "中身の見える袋・戸別",
+      "투명 봉투, 문앞",
+      "ถุงใส หน้าบ้าน"
+     ],
+     "items": [
+      [
+       "Food waste",
+       "厨余垃圾",
+       "生ゴミ",
+       "음식물 쓰레기",
+       "เศษอาหาร"
+      ],
+      [
+       "Dirty paper",
+       "脏纸",
+       "汚れた紙",
+       "더러운 종이",
+       "กระดาษเปื้อน"
+      ],
+      [
+       "Rubber & leather",
+       "橡胶与皮革",
+       "ゴム・革",
+       "고무·가죽",
+       "ยางและหนัง"
+      ],
+      [
+       "Small pieces of wood",
+       "小块木材",
+       "小さな木材",
+       "작은 나무 조각",
+       "เศษไม้ชิ้นเล็ก"
+      ]
+     ]
+    },
+    {
+     "emoji": "🪨",
+     "colorHex": "#6b7280",
+     "bgHex": "#f3f4f6",
+     "jp": "燃やさないごみ",
+     "type": [
+      "Non-Burnable",
+      "不可燃垃圾",
+      "燃やさないごみ",
+      "안 타는 쓰레기",
+      "ขยะเผาไม่ได้"
+     ],
+     "days": [
+      "1st & 3rd Sat",
+      "每月第 1、3 个周六",
+      "第1・第3土曜",
+      "매월 첫째·셋째 토",
+      "เสาร์ที่ 1 และ 3 ของเดือน"
+     ],
+     "bag": [
+      "Clear bag, in front of your building",
+      "透明袋，放自家门前",
+      "中身の見える袋・戸別",
+      "투명 봉투, 문앞",
+      "ถุงใส หน้าบ้าน"
+     ],
+     "items": [
+      [
+       "Metal items",
+       "金属制品",
+       "金属製品",
+       "금속 제품",
+       "ของโลหะ"
+      ],
+      [
+       "Ceramics",
+       "陶瓷",
+       "陶器",
+       "도자기",
+       "เซรามิก"
+      ],
+      [
+       "Glass (wrapped in paper)",
+       "玻璃（用纸包好）",
+       "ガラス（紙で包む）",
+       "유리(종이로 감싸기)",
+       "แก้ว (ห่อกระดาษ)"
+      ],
+      [
+       "Blades & scissors (wrapped!)",
+       "刀片与剪刀（务必包好！）",
+       "刃物・はさみ（包む！）",
+       "칼·가위(반드시 감싸기!)",
+       "ใบมีดและกรรไกร (ห่อให้ดี!)"
+      ]
+     ]
+    },
+    {
+     "emoji": "🧴",
+     "colorHex": "#3b82f6",
+     "bgHex": "#dbeafe",
+     "jp": "プラスチック",
+     "type": [
+      "Plastic",
+      "塑料",
+      "プラスチック",
+      "플라스틱",
+      "พลาสติก"
+     ],
+     "days": [
+      "Wed",
+      "周三",
+      "水",
+      "수",
+      "พุธ"
+     ],
+     "bag": [
+      "Clear bag, in front of your building",
+      "透明袋，放自家门前",
+      "中身の見える袋・戸別",
+      "투명 봉투, 문앞",
+      "ถุงใส หน้าบ้าน"
+     ],
+     "items": [
+      [
+       "Packaging with the プラ mark",
+       "带プラ标志的包装",
+       "プラマーク付きの容器包装",
+       "プラ 마크가 있는 포장재",
+       "บรรจุภัณฑ์ที่มีเครื่องหมาย プラ"
+      ],
+      [
+       "Plastic products",
+       "塑料制品",
+       "プラスチック製品",
+       "플라스틱 제품",
+       "ผลิตภัณฑ์พลาสติก"
+      ],
+      [
+       "Food trays (rinsed)",
+       "食品托盘（冲洗后）",
+       "食品トレー（洗浄済み）",
+       "식품 트레이(헹군 것)",
+       "ถาดอาหาร (ล้างแล้ว)"
+      ]
+     ]
+    },
+    {
+     "emoji": "♻️",
+     "colorHex": "#22c55e",
+     "bgHex": "#dcfce7",
+     "jp": "資源",
+     "type": [
+      "Recyclables",
+      "可回收物",
+      "資源",
+      "재활용품",
+      "ของรีไซเคิล"
+     ],
+     "days": [
+      "Wed",
+      "周三",
+      "水",
+      "수",
+      "พุธ"
+     ],
+     "bag": [
+      "To the neighborhood station; bundle paper",
+      "放集积所；纸类捆好",
+      "集積所へ・紙は束ねる",
+      "집적소로; 종이는 묶기",
+      "ไปจุดรวม; มัดกระดาษ"
+     ],
+     "items": [
+      [
+       "Newspapers & cardboard",
+       "报纸与纸箱",
+       "古紙・段ボール",
+       "신문·골판지",
+       "หนังสือพิมพ์และกล่องกระดาษ"
+      ],
+      [
+       "Glass bottles (rinsed)",
+       "玻璃瓶（冲洗后）",
+       "びん（洗浄済み）",
+       "유리병(헹군 것)",
+       "ขวดแก้ว (ล้างแล้ว)"
+      ],
+      [
+       "Cans (rinsed)",
+       "罐子（冲洗后）",
+       "缶（洗浄済み）",
+       "캔(헹군 것)",
+       "กระป๋อง (ล้างแล้ว)"
+      ],
+      [
+       "PET bottles (cap off, rinsed, crushed)",
+       "PET 瓶（去盖、冲洗、压扁）",
+       "ペットボトル（キャップを外し洗ってつぶす）",
+       "페트병(뚜껑 제거, 헹굼, 압착)",
+       "ขวด PET (ถอดฝา ล้าง บีบ)"
+      ]
+     ]
+    },
+    {
+     "emoji": "🛋️",
+     "colorHex": "#a855f7",
+     "bgHex": "#f3e8ff",
+     "jp": "粗大ごみ",
+     "type": [
+      "Large Items",
+      "大件垃圾",
+      "粗大ごみ",
+      "대형 폐기물",
+      "ขยะชิ้นใหญ่"
+     ],
+     "days": [
+      "Appointment only",
+      "仅限预约",
+      "予約制",
+      "예약제",
+      "เฉพาะนัดหมาย"
+     ],
+     "bag": [
+      "No bag — reserve & buy a fee sticker",
+      "无需袋 — 预约并购买处理券",
+      "袋不要 — 予約して処理券を購入",
+      "봉투 없음 — 예약 후 수수료 스티커 구매",
+      "ไม่ต้องใช้ถุง — จองและซื้อสติกเกอร์ค่าธรรมเนียม"
+     ],
+     "items": [
+      [
+       "Furniture (chairs, tables, desks)",
+       "家具（椅子、桌子、书桌）",
+       "家具（椅子・テーブル・机）",
+       "가구(의자, 탁자, 책상)",
+       "เฟอร์นิเจอร์ (เก้าอี้ โต๊ะ)"
+      ],
+      [
+       "Bicycles",
+       "自行车",
+       "自転車",
+       "자전거",
+       "จักรยาน"
+      ],
+      [
+       "Mattresses & futons",
+       "床垫与被褥",
+       "マットレス・布団",
+       "매트리스·이불",
+       "ที่นอนและฟูก"
+      ]
+     ]
+    }
+   ],
+   "districts": [
+    {
+     "id": "tokyo_asakusa_0",
+     "name": [
+      "秋葉原",
+      "秋葉原",
+      "秋葉原",
+      "秋葉原",
+      "秋葉原"
+     ],
+     "gps": {
+      "lat": 35.7019,
+      "lng": 139.77441,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Sat",
+        "每月第 1、3 个周六",
+        "第1・第3土曜",
+        "매월 첫째·셋째 토",
+        "เสาร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_1",
+     "name": [
+      "浅草1・2丁目",
+      "浅草1・2丁目",
+      "浅草1・2丁目",
+      "浅草1・2丁目",
+      "浅草1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.71228,
+      "lng": 139.79491,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Mon",
+        "每月第 1、3 个周一",
+        "第1・第3月曜",
+        "매월 첫째·셋째 월",
+        "จันทร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_2",
+     "name": [
+      "浅草3から7丁目",
+      "浅草3から7丁目",
+      "浅草3から7丁目",
+      "浅草3から7丁目",
+      "浅草3から7丁目"
+     ],
+     "gps": {
+      "lat": 35.71228,
+      "lng": 139.79491,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Thu",
+        "每月第 1、3 个周四",
+        "第1・第3木曜",
+        "매월 첫째·셋째 목",
+        "พฤหัสที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_3",
+     "name": [
+      "浅草橋1から5丁目",
+      "浅草橋1から5丁目",
+      "浅草橋1から5丁目",
+      "浅草橋1から5丁目",
+      "浅草橋1から5丁目"
+     ],
+     "gps": {
+      "lat": 35.69741,
+      "lng": 139.7845,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Wed",
+        "每月第 1、3 个周三",
+        "第1・第3水曜",
+        "매월 첫째·셋째 수",
+        "พุธที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_4",
+     "name": [
+      "池之端1から4丁目",
+      "池之端1から4丁目",
+      "池之端1から4丁目",
+      "池之端1から4丁目",
+      "池之端1から4丁目"
+     ],
+     "gps": {
+      "lat": 35.70977,
+      "lng": 139.76785,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Sat",
+        "每月第 2、4 个周六",
+        "第2・第4土曜",
+        "매월 둘째·넷째 토",
+        "เสาร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_5",
+     "name": [
+      "今戸1・2丁目",
+      "今戸1・2丁目",
+      "今戸1・2丁目",
+      "今戸1・2丁目",
+      "今戸1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.71841,
+      "lng": 139.80493,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Fri",
+        "每月第 1、3 个周五",
+        "第1・第3金曜",
+        "매월 첫째·셋째 금",
+        "ศุกร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_6",
+     "name": [
+      "入谷1・2丁目",
+      "入谷1・2丁目",
+      "入谷1・2丁目",
+      "入谷1・2丁目",
+      "入谷1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.72053,
+      "lng": 139.78595,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Tue",
+        "每月第 1、3 个周二",
+        "第1・第3火曜",
+        "매월 첫째·셋째 화",
+        "อังคารที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_7",
+     "name": [
+      "上野1から7丁目",
+      "上野1から7丁目",
+      "上野1から7丁目",
+      "上野1から7丁目",
+      "上野1から7丁目"
+     ],
+     "gps": {
+      "lat": 35.70668,
+      "lng": 139.77139,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Sat",
+        "每月第 1、3 个周六",
+        "第1・第3土曜",
+        "매월 첫째·셋째 토",
+        "เสาร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_8",
+     "name": [
+      "上野公園",
+      "上野公園",
+      "上野公園",
+      "上野公園",
+      "上野公園"
+     ],
+     "gps": {
+      "lat": 35.71533,
+      "lng": 139.77354,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Sat",
+        "每月第 2、4 个周六",
+        "第2・第4土曜",
+        "매월 둘째·넷째 토",
+        "เสาร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_9",
+     "name": [
+      "上野桜木1・2丁目",
+      "上野桜木1・2丁目",
+      "上野桜木1・2丁目",
+      "上野桜木1・2丁目",
+      "上野桜木1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.72139,
+      "lng": 139.77477,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Sat",
+        "每月第 1、3 个周六",
+        "第1・第3土曜",
+        "매월 첫째·셋째 토",
+        "เสาร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_10",
+     "name": [
+      "雷門1・2丁目",
+      "雷門1・2丁目",
+      "雷門1・2丁目",
+      "雷門1・2丁目",
+      "雷門1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.71032,
+      "lng": 139.79311,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Mon",
+        "每月第 1、3 个周一",
+        "第1・第3月曜",
+        "매월 첫째·셋째 월",
+        "จันทร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_11",
+     "name": [
+      "北上野1・2丁目",
+      "北上野1・2丁目",
+      "北上野1・2丁目",
+      "北上野1・2丁目",
+      "北上野1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.71772,
+      "lng": 139.78276,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Thu",
+        "每月第 2、4 个周四",
+        "第2・第4木曜",
+        "매월 둘째·넷째 목",
+        "พฤหัสที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_12",
+     "name": [
+      "清川1・2丁目",
+      "清川1・2丁目",
+      "清川1・2丁目",
+      "清川1・2丁目",
+      "清川1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.72454,
+      "lng": 139.80302,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Fri",
+        "每月第 1、3 个周五",
+        "第1・第3金曜",
+        "매월 첫째·셋째 금",
+        "ศุกร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_13",
+     "name": [
+      "蔵前1から4丁目",
+      "蔵前1から4丁目",
+      "蔵前1から4丁目",
+      "蔵前1から4丁目",
+      "蔵前1から4丁目"
+     ],
+     "gps": {
+      "lat": 35.70019,
+      "lng": 139.79057,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Mon",
+        "每月第 2、4 个周一",
+        "第2・第4月曜",
+        "매월 둘째·넷째 월",
+        "จันทร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_14",
+     "name": [
+      "小島1・2丁目",
+      "小島1・2丁目",
+      "小島1・2丁目",
+      "小島1・2丁目",
+      "小島1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.70429,
+      "lng": 139.78297,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Wed",
+        "每月第 1、3 个周三",
+        "第1・第3水曜",
+        "매월 첫째·셋째 수",
+        "พุธที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_15",
+     "name": [
+      "寿1・2丁目",
+      "寿1・2丁目",
+      "寿1・2丁目",
+      "寿1・2丁目",
+      "寿1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.70736,
+      "lng": 139.78949,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Mon",
+        "每月第 2、4 个周一",
+        "第2・第4月曜",
+        "매월 둘째·넷째 월",
+        "จันทร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_16",
+     "name": [
+      "寿3・4丁目",
+      "寿3・4丁目",
+      "寿3・4丁目",
+      "寿3・4丁目",
+      "寿3・4丁目"
+     ],
+     "gps": {
+      "lat": 35.70736,
+      "lng": 139.78949,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Mon",
+        "每月第 1、3 个周一",
+        "第1・第3月曜",
+        "매월 첫째·셋째 월",
+        "จันทร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_17",
+     "name": [
+      "駒形1・2丁目",
+      "駒形1・2丁目",
+      "駒形1・2丁目",
+      "駒形1・2丁目",
+      "駒形1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.70711,
+      "lng": 139.79431,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Mon",
+        "每月第 1、3 个周一",
+        "第1・第3月曜",
+        "매월 첫째·셋째 월",
+        "จันทร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_18",
+     "name": [
+      "下谷1丁目",
+      "下谷1丁目",
+      "下谷1丁目",
+      "下谷1丁目",
+      "下谷1丁目"
+     ],
+     "gps": {
+      "lat": 35.7188,
+      "lng": 139.78152,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Tue",
+        "每月第 2、4 个周二",
+        "第2・第4火曜",
+        "매월 둘째·넷째 화",
+        "อังคารที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_19",
+     "name": [
+      "下谷2・3丁目",
+      "下谷2・3丁目",
+      "下谷2・3丁目",
+      "下谷2・3丁目",
+      "下谷2・3丁目"
+     ],
+     "gps": {
+      "lat": 35.7188,
+      "lng": 139.78152,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Tue",
+        "每月第 1、3 个周二",
+        "第1・第3火曜",
+        "매월 첫째·셋째 화",
+        "อังคารที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_20",
+     "name": [
+      "千束1から4丁目",
+      "千束1から4丁目",
+      "千束1から4丁目",
+      "千束1から4丁目",
+      "千束1から4丁目"
+     ],
+     "gps": {
+      "lat": 35.71863,
+      "lng": 139.79134,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Fri",
+        "每月第 2、4 个周五",
+        "第2・第4金曜",
+        "매월 둘째·넷째 금",
+        "ศุกร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_21",
+     "name": [
+      "台東1から4丁目",
+      "台東1から4丁目",
+      "台東1から4丁目",
+      "台東1から4丁目",
+      "台東1から4丁目"
+     ],
+     "gps": {
+      "lat": 35.70146,
+      "lng": 139.7782,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Wed",
+        "每月第 2、4 个周三",
+        "第2・第4水曜",
+        "매월 둘째·넷째 수",
+        "พุธที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_22",
+     "name": [
+      "鳥越1・2丁目",
+      "鳥越1・2丁目",
+      "鳥越1・2丁目",
+      "鳥越1・2丁目",
+      "鳥越1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.70292,
+      "lng": 139.78296,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Wed",
+        "每月第 1、3 个周三",
+        "第1・第3水曜",
+        "매월 첫째·셋째 수",
+        "พุธที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_23",
+     "name": [
+      "西浅草1・2丁目",
+      "西浅草1・2丁目",
+      "西浅草1・2丁目",
+      "西浅草1・2丁目",
+      "西浅草1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.71096,
+      "lng": 139.79007,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Thu",
+        "每月第 2、4 个周四",
+        "第2・第4木曜",
+        "매월 둘째·넷째 목",
+        "พฤหัสที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_24",
+     "name": [
+      "西浅草3丁目",
+      "西浅草3丁目",
+      "西浅草3丁目",
+      "西浅草3丁目",
+      "西浅草3丁目"
+     ],
+     "gps": {
+      "lat": 35.71096,
+      "lng": 139.79007,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Thu",
+        "每月第 1、3 个周四",
+        "第1・第3木曜",
+        "매월 첫째·셋째 목",
+        "พฤหัสที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_25",
+     "name": [
+      "日本堤1・2丁目",
+      "日本堤1・2丁目",
+      "日本堤1・2丁目",
+      "日本堤1・2丁目",
+      "日本堤1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.72585,
+      "lng": 139.79858,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Fri",
+        "每月第 2、4 个周五",
+        "第2・第4金曜",
+        "매월 둘째·넷째 금",
+        "ศุกร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_26",
+     "name": [
+      "根岸1から5丁目",
+      "根岸1から5丁目",
+      "根岸1から5丁目",
+      "根岸1から5丁目",
+      "根岸1から5丁目"
+     ],
+     "gps": {
+      "lat": 35.72161,
+      "lng": 139.77914,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Tue",
+        "每月第 2、4 个周二",
+        "第2・第4火曜",
+        "매월 둘째·넷째 화",
+        "อังคารที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_27",
+     "name": [
+      "橋場1・2丁目",
+      "橋場1・2丁目",
+      "橋場1・2丁目",
+      "橋場1・2丁目",
+      "橋場1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.72427,
+      "lng": 139.80699,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Fri",
+        "每月第 1、3 个周五",
+        "第1・第3金曜",
+        "매월 첫째·셋째 금",
+        "ศุกร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_28",
+     "name": [
+      "花川戸1・2丁目",
+      "花川戸1・2丁目",
+      "花川戸1・2丁目",
+      "花川戸1・2丁目",
+      "花川戸1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.71219,
+      "lng": 139.79942,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Mon",
+        "每月第 1、3 个周一",
+        "第1・第3月曜",
+        "매월 첫째·셋째 월",
+        "จันทร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_29",
+     "name": [
+      "東浅草1・2丁目",
+      "東浅草1・2丁目",
+      "東浅草1・2丁目",
+      "東浅草1・2丁目",
+      "東浅草1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.72116,
+      "lng": 139.8008,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Fri",
+        "每月第 1、3 个周五",
+        "第1・第3金曜",
+        "매월 첫째·셋째 금",
+        "ศุกร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Tue",
+        "周二",
+        "火",
+        "화",
+        "อังคาร"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_30",
+     "name": [
+      "東上野1から3丁目",
+      "東上野1から3丁目",
+      "東上野1から3丁目",
+      "東上野1から3丁目",
+      "東上野1から3丁目"
+     ],
+     "gps": {
+      "lat": 35.70801,
+      "lng": 139.77914,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Wed",
+        "每月第 2、4 个周三",
+        "第2・第4水曜",
+        "매월 둘째·넷째 수",
+        "พุธที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_31",
+     "name": [
+      "東上野4から6丁目",
+      "東上野4から6丁目",
+      "東上野4から6丁目",
+      "東上野4から6丁目",
+      "東上野4から6丁目"
+     ],
+     "gps": {
+      "lat": 35.70801,
+      "lng": 139.77914,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Sat",
+        "每月第 1、3 个周六",
+        "第1・第3土曜",
+        "매월 첫째·셋째 토",
+        "เสาร์ที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_32",
+     "name": [
+      "松が谷1から4丁目",
+      "松が谷1から4丁目",
+      "松が谷1から4丁目",
+      "松が谷1から4丁目",
+      "松が谷1から4丁目"
+     ],
+     "gps": {
+      "lat": 35.71157,
+      "lng": 139.78671,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Thu",
+        "每月第 2、4 个周四",
+        "第2・第4木曜",
+        "매월 둘째·넷째 목",
+        "พฤหัสที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Mon",
+        "周一",
+        "月",
+        "월",
+        "จันทร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_33",
+     "name": [
+      "三筋1・2丁目",
+      "三筋1・2丁目",
+      "三筋1・2丁目",
+      "三筋1・2丁目",
+      "三筋1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.70366,
+      "lng": 139.78578,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Mon",
+        "每月第 2、4 个周一",
+        "第2・第4月曜",
+        "매월 둘째·넷째 월",
+        "จันทร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_34",
+     "name": [
+      "三ノ輪1・2丁目",
+      "三ノ輪1・2丁目",
+      "三ノ輪1・2丁目",
+      "三ノ輪1・2丁目",
+      "三ノ輪1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.72804,
+      "lng": 139.79268,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Tue",
+        "每月第 1、3 个周二",
+        "第1・第3火曜",
+        "매월 첫째·셋째 화",
+        "อังคารที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_35",
+     "name": [
+      "元浅草1から4丁目",
+      "元浅草1から4丁目",
+      "元浅草1から4丁目",
+      "元浅草1から4丁目",
+      "元浅草1から4丁目"
+     ],
+     "gps": {
+      "lat": 35.70811,
+      "lng": 139.78387,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Tue, Fri",
+        "周二、周五",
+        "火・金",
+        "화, 금",
+        "อังคาร, ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Mon",
+        "每月第 2、4 个周一",
+        "第2・第4月曜",
+        "매월 둘째·넷째 월",
+        "จันทร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Thu",
+        "周四",
+        "木",
+        "목",
+        "พฤหัส"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_36",
+     "name": [
+      "谷中1から7丁目",
+      "谷中1から7丁目",
+      "谷中1から7丁目",
+      "谷中1から7丁目",
+      "谷中1から7丁目"
+     ],
+     "gps": {
+      "lat": 35.7201,
+      "lng": 139.76727,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "2nd & 4th Sat",
+        "每月第 2、4 个周六",
+        "第2・第4土曜",
+        "매월 둘째·넷째 토",
+        "เสาร์ที่ 2 และ 4 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Wed",
+        "周三",
+        "水",
+        "수",
+        "พุธ"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_37",
+     "name": [
+      "柳橋1・2丁目",
+      "柳橋1・2丁目",
+      "柳橋1・2丁目",
+      "柳橋1・2丁目",
+      "柳橋1・2丁目"
+     ],
+     "gps": {
+      "lat": 35.6965,
+      "lng": 139.78783,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Mon, Thu",
+        "周一、周四",
+        "月・木",
+        "월, 목",
+        "จันทร์, พฤหัส"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Wed",
+        "每月第 1、3 个周三",
+        "第1・第3水曜",
+        "매월 첫째·셋째 수",
+        "พุธที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Sat",
+        "周六",
+        "土",
+        "토",
+        "เสาร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    },
+    {
+     "id": "tokyo_asakusa_38",
+     "name": [
+      "竜泉1から3丁目",
+      "竜泉1から3丁目",
+      "竜泉1から3丁目",
+      "竜泉1から3丁目",
+      "竜泉1から3丁目"
+     ],
+     "gps": {
+      "lat": 35.7235,
+      "lng": 139.78911,
+      "r": 0.6
+     },
+     "note": null,
+     "overrides": [
+      {
+       "jp": "燃やすごみ",
+       "days": [
+        "Wed, Sat",
+        "周三、周六",
+        "水・土",
+        "수, 토",
+        "พุธ, เสาร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "燃やさないごみ",
+       "days": [
+        "1st & 3rd Tue",
+        "每月第 1、3 个周二",
+        "第1・第3火曜",
+        "매월 첫째·셋째 화",
+        "อังคารที่ 1 และ 3 ของเดือน"
+       ],
+       "time": null
+      },
+      {
+       "jp": "資源",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      },
+      {
+       "jp": "プラスチック",
+       "days": [
+        "Fri",
+        "周五",
+        "金",
+        "금",
+        "ศุกร์"
+       ],
+       "time": null
+      }
+     ],
+     "verified": true,
+     "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+     "sourceDate": "2026-07-22"
+    }
+   ]
+  },
+  {
    "id": "tokyo_bunkyo",
    "name": [
     "Bunkyo Ward",

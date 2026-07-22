@@ -1,0 +1,10 @@
+[
+ {
+  "muni": "東京都台東区",
+  "city_id": "tokyo_asakusa",
+  "lat": 35.7118,
+  "lng": 139.7967,
+  "source": "https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.files/02.pdf",
+  "status": "auto-acquired → human-verified → published (39 districts)"
+ }
+]
